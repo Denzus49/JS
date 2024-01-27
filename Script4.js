@@ -1,2 +1,3 @@
-let a = 8 / 2 + 2;
-alert(a);
+let str1 = 'Java';
+let str2 = 'Script';
+alert(str1 + str2);

@@ -1,6 +1,5 @@
 "use stict"
-let a;
-a = 10;
-alert(a);
-a = 20;
-alert (a);
+let str1 = 'xxx';
+let str2 = 'yyy';
+let txt = `aaa ${str1} bbb ${str2} ccc`;
+alert (txt);
