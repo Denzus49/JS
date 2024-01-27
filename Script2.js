@@ -1,5 +1,6 @@
-"use stict"
-let str1 = 'xxx';
-let str2 = 'yyy';
-let txt = `aaa ${str1} bbb ${str2} ccc`;
-alert (txt);
+let byte=(10**1);
+let kilo=(byte**3);
+let mega= (byte**6);
+let giga= (mega*1024);
+let tera= (giga*1024);
+alert (mega);
