@@ -1,5 +1,3 @@
-"use stict"
-let str1 = 'xxx';
-let str2 = 'yyy';
-let txt = `aaa ${str1} bbb ${str2} ccc`;
-alert (txt);
+let f = 541;
+let c = (f-32) *(5/9);
+alert (c.toFixed(3));
