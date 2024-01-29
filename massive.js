@@ -1,2 +1,5 @@
-let arr = ['a', 'b', 'c'];
-console.log (arr[arr.length-1]);
+let arr = [1, 2, 3];
+arr[0]++
+++arr[1]
+arr[2]++
+alert (arr)
