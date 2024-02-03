@@ -1,4 +1,1 @@
-let obj = {}
-obj.home = 'Огоренко 27'
-obj.apart = 13
-console.log(obj);
+console.log( typeof {x: 1, y: 2, z: 3} );
