@@ -1,3 +1,2 @@
-const arr = ['a', 'b', 'c'];
-arr[0] = 123;
-console.log(arr);
+let obj = {x: 1, y: 2, z: 3};
+console.log(Object.keys(obj).length);
