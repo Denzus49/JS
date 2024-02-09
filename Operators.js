@@ -1,7 +1,6 @@
-let test1 = 3;
-let test2 = 2;
-		
-if (test1 === test2) {
+let num = 2;
+
+if (num == 0 || num > 1 && num < 5 ) {
 	console.log('+++');
 } else {
 	console.log('---');
