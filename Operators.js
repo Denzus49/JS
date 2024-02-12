@@ -1,15 +1,4 @@
-let lang = 'en';
+let a = 2 ** 4;
+let b = 4 ** 2;
 
-switch (lang){
-	case 'ru':
-		console.log('рус');
-		break
-		case 'en':
-			console.log ('англ')
-			break
-		case 'de':
-			console.log ('нем')
-			break
-		default:
-			console.log ('язык не найден')
-}
+console.log(a != b);
