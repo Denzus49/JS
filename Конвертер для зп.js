@@ -3,7 +3,7 @@ let proc= (brutt.x/100*brutt.y)
 let nettoRu= (brutt.x-proc)
 async function fetchCurrencyRate() {
     try {
-      const response = await fetch('https://api.nbrb.by');
+      const response = await fetch('https://api.nbrb.by/exrates/currencies[/{cur_id}]');
   
       const data = await response.json();
       const currencyRate = data.Cur_QuotName; 
