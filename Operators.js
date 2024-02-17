@@ -1,4 +1,4 @@
-let a = 2 ** 4;
-let b = 4 ** 2;
+let num = -1;
+let res = num >= 0 ? 1:2
 
-console.log(a != b);
+console.log(res);
