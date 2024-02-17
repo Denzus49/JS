@@ -1,4 +1,6 @@
-let num = -1;
-let res = num >= 0 ? 1:2
-
-console.log(res);
+let req = confirm("Вам исполнилось 18 лет?");
+if (req) {alert('Взрослый ответ')
+    
+} else {alert('Вы маленький, доступ закрыт')
+    
+}
